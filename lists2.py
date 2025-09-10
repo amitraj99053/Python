@@ -29,3 +29,7 @@ print(thislist1)
 fruits2 = ["apple", "banana", "cherry", "kiwi", "mango"]
 fruits2.sort(reverse = True)
 print(fruits2)
+
+thislist2 = [100, 50, 65, 82, 23]
+mylist = thislist2.copy()
+print(mylist)
