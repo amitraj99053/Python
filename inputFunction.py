@@ -13,8 +13,6 @@
 
 
 import math
-
-
 x = input("Enter a number:")
 
 #find the square root of the number:
