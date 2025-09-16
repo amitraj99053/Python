@@ -9,4 +9,12 @@ print()
 thistuple1 = ("apple", "banana", "cherry")
 for i in range(len(thistuple1)):
     print(thistuple1[i])
+     
+print()    
     
+# Using while loop
+thistuple2 = ("apple", "banana", "cherry")
+i = 0
+while i < len(thistuple2):
+    print(thistuple2[i])
+    i = i + 1
