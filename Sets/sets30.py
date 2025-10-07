@@ -1,0 +1,10 @@
+# Returns True if this frozenset is a (proper) superset of another frozenset
+# issuperset()
+a = frozenset({1, 2, 3, 4})
+b = frozenset({1, 2})
+print(a.issuperset(b))
+print(a >= b)
+print(a > b)
+print(b.issuperset(a))
+print(b >= a)
+print(b > a)
