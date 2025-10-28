@@ -11,3 +11,9 @@ print("a << 1 =", a << 1) # Left Shift:    0110 << 1 = 1100 = 12
 print("a >> 1 =", a >> 1) # Right Shift:   0110 >> 1 = 0011 = 3         
 print("b << 2 =", b << 2) # Left Shift:    0011 << 2 = 1100 = 12
 print("b >> 1 =", b >> 1) # Right Shift:   0011 >> 1 = 0001 = 1
+print()
+
+print(6 & 3)
+print(6 | 3)
+print(6 ^ 3)
+print(~6)
