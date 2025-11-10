@@ -6,3 +6,4 @@ if len(username) > 0:
     print(f"Welcome, {username} to my website!")
 else:
     print("Error: Username not found.")
+    
