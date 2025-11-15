@@ -1,0 +1,9 @@
+# Default value for country parameter
+
+def my_function(country = "Norway"):
+    print("I am from", country)
+    
+my_function("Sweden")
+my_function("India")
+my_function()
+my_function("Brazil")
