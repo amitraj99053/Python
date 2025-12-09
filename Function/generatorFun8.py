@@ -1,0 +1,13 @@
+# The close() method stops the generator
+
+def my_gen():
+    try:
+        yield 1
+        yield 2
+        yield 3
+    finally:
+        print("Generator is closed.")
+        
+gen = my_gen()
+print(next(gen))
+gen.close()

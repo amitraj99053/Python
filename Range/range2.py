@@ -1,0 +1,5 @@
+# Create a range of numbers from 3 to 9 with Two Arguments
+
+x = range(3, 10)
+print(x)
+print(list(x))  
