@@ -22,5 +22,15 @@ data = {
 }
 
 print(json.dumps(data))
+print() 
 
-    
+# Use the indent parameter to define the numbers of indents
+print(json.dumps(data, indent=4))
+print()
+
+# Use the separators parameter to change the default separator
+print(json.dumps(data, indent=4, separators=(". ", " = ")))
+print()
+
+# Use the sort_keys parameter to specify if the output should be sorted or not
+print(json.dumps(data, indent=4, sort_keys=True))
